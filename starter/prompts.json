@@ -1,0 +1,49 @@
+{
+    "project": "GitHub Copilot Python Sudoku",
+    "prompts": [
+        {
+            "feature": "Refactoring",
+            "prompt": "Refactor the legacy Flask Sudoku application into a modular architecture while preserving all existing functionality."
+        },
+        {
+            "feature": "Difficulty Levels",
+            "prompt": "Add Easy, Medium, and Hard difficulty levels that generate puzzles with different numbers of prefilled cells."
+        },
+        {
+            "feature": "Unique Solution",
+            "prompt": "Ensure every generated Sudoku puzzle has exactly one valid solution."
+        },
+        {
+            "feature": "Game Timer",
+            "prompt": "Add a timer that starts with a new game, updates continuously, and stops when the puzzle is solved."
+        },
+        {
+            "feature": "Hint Feature",
+            "prompt": "Implement a Hint button that fills one correct cell, locks it, tracks hints used, and highlights the hinted cell."
+        },
+        {
+            "feature": "Check Puzzle",
+            "prompt": "Add a Check Puzzle button that compares the current board with the solution and highlights incorrect cells."
+        },
+        {
+            "feature": "Completion Message",
+            "prompt": "Display a congratulatory message when the puzzle is completed, showing the completion time and hints used."
+        },
+        {
+            "feature": "Leaderboard",
+            "prompt": "Create a Top 10 leaderboard that stores the player's name, completion time, difficulty level, and hints used."
+        },
+        {
+            "feature": "Local Storage",
+            "prompt": "Persist the leaderboard using browser Local Storage and load saved scores automatically."
+        },
+        {
+            "feature": "Dark Mode",
+            "prompt": "Add a Dark Mode toggle while maintaining readability and accessibility."
+        },
+        {
+            "feature": "Responsive UI",
+            "prompt": "Improve the layout so it works well on desktop and mobile devices with alternating colors for each 3×3 Sudoku section."
+        }
+    ]
+}
